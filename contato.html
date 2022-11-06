@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJ's - Contato</title>
+    <link rel ="icon" type="imagens/x-icon" href="./imagens/icon.png"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="responsive.css"/>
+</head>
+<body>
+    <header>
+        <div class="conteudo cabecamapa">
+            <img class="img-header" src="/imagens/MJ.svg" alt="logotipo"/>
+                <div class="secaomenu" id="Home">
+                    <div class="conteudomenu">
+                        <input type="checkbox" id="checkbox-menu" />
+                        <label class="menubotao" for="checkbox-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <nav class="nav-menu">
+                            <ul class="lista-menu">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>       
+                                <li>
+                                    <a href="index.html#MENU">Menu</a>
+                                </li>
+                                <li>
+                                    <a href="mapa1.html#homemapa">Localização</a>
+                                </li>
+                                <li>
+                                    <a href="contato.html#homeconteudo">Contato</a>
+                                </li>    
+                            </ul>
+                        </nav>
+                    </div>
+                </div>  
+        </div>
+    </header>
+    <form id="homeconteudo">
+        <h2>Trabalhe Conosco</h2>
+        <h3>Digite suas informações abaixo e entraremos em contato :D</h3>
+        <table>
+            <tr><td class="pricol"><label for="txtnome">Nome Completo:&nbsp;&nbsp;</label></td>
+            <td class="segcol"><input type=" text" name="txtnome" id="textnome" placeholder="Preencha o nome completo" required /></br></td></tr>
+
+            <tr><td class="pricol"><label for="txtende">Endereço:&nbsp;&nbsp;</label></td>
+            <td class="segcol"><input type="text" name="txtende" id="textende" placeholder="Preencha o endereço" required /></br></td></tr>
+
+            <tr><td class="pricol"><label for="txtcida">Cidade:&nbsp;&nbsp;</label></td>
+            <td class="segcol"><input type="text" name="txtcida" id="textcida" value="São Paulo" required /></br></td></tr>
+
+            <tr><td class="pricol"><label for="txtuf">Cidade:&nbsp;&nbsp;</label></td>
+            <td class="segcol"><select name="txtuf" id="textuf">
+                <option>AC</option>
+                <option>AM</option>
+                <option>AL</option>
+                <option>AP</option>
+                <option>BA</option>
+                <option>CE</option>
+                <option>DF</option>
+                <option>ES</option>
+                <option>GO</option>
+                <option>MA</option>
+                <option>MG</option>
+                <option>MS</option>
+                <option>MT</option>
+                <option>PA</option>
+                <option>PB</option>
+                <option>PE</option>
+                <option>PI</option>
+                <option>PR</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>RO</option>
+                <option>RR</option>
+                <option>RS</option>
+                <option>SC</option>
+                <option>SE</option>
+                <option selected>SP</option>
+                <option>TO</option>
+            </select></br></td></tr>
+
+            <tr><td class="pricol"><label for="txtcep">CEP:&nbsp;&nbsp;</label></td>
+            <td class="segcol"><input type="text" name="textcep" id="textcep" placeholder="Digite o C.E.P" /></br></td></tr>
+
+            <tr><td class="pricol"><label for="txtsexo">Sexo:&nbsp;&nbsp;</label></td>
+            <td class="segcol"><input type="text" name="textsexo" id="textsexo" placeholder="Digite o gênero" /></br></td></tr>
+
+            <tr><td class="pricol"><label for="txtemai">E-mail:&nbsp;&nbsp;</label></td>
+            <td class="segcol"><input type="email" name="textemai" id="textemai" placeholder="Digite seu melhor email" required/></br></td></tr>
+
+            <td class="botoes" colspan=2> <input class="botaounico" type="submit" value="Cadastrar" onClick="alert('Seus dados foram enviados com sucesso')" />&nbsp;&nbsp;
+                <input class="botaounico" type="reset" value="Limpar" />&nbsp;&nbsp;
+            </td>
+        </table>
+
+    </form>
+    <footer>
+
+        <p>Todos os direitos reservados à Matheus e Jimmy</p>
+        <p>Contato: mjs@restaurante.com.br</p>
+        <p>2022</p>
+
+    </footer> 
+    
+</body>
+</html>
